@@ -1,9 +1,27 @@
 {
-    "presets": [
-        "es2015"
+  "presets": [
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-strip-jsnext",
+    "array-includes",
+    "syntax-async-functions",
+    "syntax-flow",
+    "transform-flow-strip-types",
+    "transform-object-assign",
+    [
+      "typecheck", {
+        "only": [
+          "enabled"
+        ]
+      }
     ],
-    "plugins": [
-        "syntax-flow",
-        "transform-flow-strip-types"
+    [
+      "transform-runtime", {
+        "polyfill": false,
+        "regenerator": true
+      }
     ]
+  ],
 }

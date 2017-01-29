@@ -8,6 +8,9 @@
     "flow": "$(cd ..; npm bin)/flow"
   },
   "dependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "base-domain-loopback": "^4.3.1",
+    "buffer": "^5.0.2",
     "react": "15.3.2",
     "react-native": "^0.36.1",
     "sample-domain": "1.0.0"
