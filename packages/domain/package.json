@@ -8,5 +8,9 @@
     "flow": "$(cd ..; npm bin)/flow"
   },
   "author": "janus",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "base-domain-loopback": "^4.3.1",
+    "buffer": "^5.0.2"
+  }
 }
